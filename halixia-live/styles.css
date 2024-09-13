@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans:wght@300&display=swap");
+
+/*General styling for structure*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 5%;
+  background-color: #ffffff;
+  font-family: Opensans400Normal, Arial, sans-serif;
+  /* font-family: "Merriweather Sans", sans-serif; */
+  color: #000000;
+}
+
+.navbar {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  z-index: 999999;
+  height: 68px;
+}
+
+.logo {
+  margin-top: 12px;
+  /* margin-left: 100px; */
+}
+
+a.navTitle {
+  color: #294fe8;
+  font-family: Opensans900Bold, Arial, sans-serif;
+  text-align: center;
+  font-weight: 900;
+  font-size: 60px;
+  display: inline;
+  margin-left: 5px;
+}
+
+a.navMenu {
+  font-family: Opensans600Semi, Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 23px;
+  text-align: left;
+}
+
+.hero-title {
+  align-self: flex-start;
+  font-family: Poppins700Bold, Arial, sans-serif;
+  color: #000000;
+  font-size: 40px;
+  line-height: 70px;
+  font-weight: 700;
+  text-align: left;
+}

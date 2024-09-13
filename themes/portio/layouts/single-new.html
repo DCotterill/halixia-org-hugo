@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-13TP5S8PDP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-13TP5S8PDP');
+    </script>
+
+    {{ "<!--Favicon-->" | safeHTML }}
+    <link rel="shortcut icon" href="{{ "images/favicon.ico" | absURL }}" type="image/x-icon" />
+    <link rel="icon" href="{{ "images/favicon.png" | absURL }}" type="image/x-icon" />
+    <link rel="stylesheet" href="/images/ma.css" />
+    <title>{{ .Title }}</title>
+</head>
+
+<body>
+    <section class="ma-page" id="home">
+        <div align="center">
+            <img src="{{ .Site.Params.logoSmall | absURL }}" alt="Halixia logo">
+        </div>
+        <div class="ma-title">
+            {{ .Title }}
+        </div>
+        <div class="ma-content">
+              {{ .Content }}
+              <div class="ma-card">
+                    <div class="ma-icon">
+                      <img src="/images/fee-pound.png" width="30"/>
+                    </div>
+                    <div class="ma-name">
+                        <p>Bluecrestwellness</p>
+                    </div>
+                    <div class="ma-paid-text">
+                      <p>Paid</p>
+                  </div>
+
+
+              </div>
+        </div>
+    </section>
+</body>
+</html>

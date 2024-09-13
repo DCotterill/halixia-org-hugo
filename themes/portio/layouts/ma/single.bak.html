@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+{{ partial "head.html" . }}
+<body>
+    <section class="blog-page" id="home">
+      <div class="container">
+        <div class="section">
+            <div class="mb-5">
+              <h3 align="center">
+                <a href="{{ .Site.BaseURL }}" class="navbar-brand">
+                  <img src="{{ .Site.Params.logoSmall | absURL }}" alt="Halixia logo">
+                </a>
+              </h3>
+              <div class="ma-title">
+              {{ .Title }}
+              </div>
+              <div class="ma-content">
+              {{ .Content }}
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  {{ partial "footer-basic.html" . }}
+</body>
+</html>

@@ -1,0 +1,22 @@
+---
+title: "Blood cancer help"
+date: 2020-09-01T12:49:27+06:00
+featureImage: images/ma/placeholder.jpeg
+layout: static
+---
+
+Learn about how you can help people with blood cancer.
+
+Help raise awareness of the need for stem cell donors to help people with blood cancer or a blood disorder, a stem cell transplant from a matching donor could be their last chance of survival.
+
+Today, blood cancer is the fifth most common cancer in the UK, and the third biggest cancer killer. A lack of public awareness causes shortfall in lifesaving stem cell donors. Even if you can't register as a donor there are plenty of ways you can help raise awareness and contribute to this life saving cause.
+
+<a class="ma-link" href="https://www.anthonynolan.org/help-save-a-life"><div class="ma-card ma-card-Community"><div class="ma-icon"><img src ="/images/Icon-check - community - opacity.svg"/></div><div class="ma-name"><p>Anthony Nolan</p></div><div class="ma-paid-text"><span>Free</span></div></div></a><a class="ma-link" href="https://www.dkms.org.uk/get-involved/programmes"><div class="ma-card ma-card-Community"><div class="ma-icon"><img src ="/images/Icon-check - community - opacity.svg"/></div><div class="ma-name"><p>DKMS</p></div><div class="ma-paid-text"><span></span></div></div></a><a class="ma-link" href="https://bloodcancer.org.uk/"><div class="ma-card ma-card-Community"><div class="ma-icon"><img src ="/images/Icon-check - community - opacity.svg"/></div><div class="ma-name"><p>Blood Cancer UK</p></div><div class="ma-paid-text"><span>Free</span></div></div></a>  
+
+<br/><br/>
+
+
+
+
+
+

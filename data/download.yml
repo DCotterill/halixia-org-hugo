@@ -1,0 +1,13 @@
+---
+enable: true
+topTitle: Helping you live a better longer life
+content: >
+  # Install the halixia app
+
+  Please scan the QR code or follow appropriate link from your mobile device to download and test the halixia app.
+
+buttonName: Find Out How
+buttonURL: howitworks
+image: images/hero/100-year-life.png
+qrcode: images/download/qrcode.png
+appstores: images/download/appstores.png

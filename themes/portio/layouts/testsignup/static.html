@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+{{ partial "head.html" . }}
+
+<body>
+  {{ partial "navbar.html" . }}
+  <div id="content">
+
+{{ with .Site.Data.testsignup }}
+<section class="hero" id="home">
+  <div class="hero_background-svg">
+    <svg viewBox="0 0 1437 1180">
+      <path fill="#f1f6f9" d="M0 0h1277l100 1010a120 120 0 01-120 120L0 1180z" data-name="Path 1350" />
+    </svg>
+  </div>
+  <div class="hero_footer-svg">
+    <img src="/images/download/figure-svg.svg" alt="" />
+  </div>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-8">
+        <div class="hero_content">
+          <div class="hero_blob">
+            <svg viewBox="0 0 550 550">
+              <defs>
+                <linearGradient id="a" x1=".069" x2=".753" y1=".116" y2=".858" gradientUnits="objectBoundingBox">
+                  <stop offset="0" stop-color="#fff" />
+                  <stop offset="1" stop-color="#fff" stop-opacity=".012" />
+                </linearGradient>
+              </defs>
+              <g data-name="blob-shape (3)">
+                <path class="blob" fill="url(#a)"
+                  d="M455.4 151.1c43.1 36.7 73.4 92.8 60.8 136.3-12.7 43.5-68.1 74.4-111.3 119.4-43.1 45-74 104.1-109.8 109-35.9 5-76.7-44.2-111.8-89.2-35.2-45-64.7-85.8-70.8-132.6-6-46.8 11.6-99.6 46.7-136.3 35.2-36.6 88-57.2 142.4-58.8 54.5-1.7 110.6 15.6 153.8 52.2z" />
+              </g>
+            </svg>
+          </div>
+          <div class="mb-12">
+            <span class="top-title pre-line">{{ .topTitle }}</span>
+            {{ .content | markdownify }}
+          </div>
+					<div class="row">
+					  <div class="col-lg-12">
+						<div class="contact-form-input">
+<!--						&lt;!&ndash; Begin Mailchimp Signup Form &ndash;&gt;-->
+<!--						  <div id="mc_embed_signup">-->
+<!--							<form id="mc-embedded-subscribe-form"-->
+<!--							  action="https://capco.us6.list-manage.com/subscribe/post?u=00bc9177a3eeb9456b60ef950&amp;id=d34a07233c"-->
+<!--							  method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"-->
+<!--							  class="validate search-wrapper contact-form" target="_blank" validate>-->
+
+
+<!--							<div class="form-row">-->
+<!--							  <div class="form-group col-md-10">-->
+<!--					            <label class="form-check-label" for="MERGE1">Email</label>-->
+<!--								<input class="form-control" type="email" value="" name="EMAIL" c id="mce-EMAIL" placeholder="Enter your email..." required>-->
+<!--							  </div>-->
+<!--							</div>-->
+<!--								&lt;!&ndash; real people should not fill this in and expect good things - do not remove this or risk form bot signups&ndash;&gt;-->
+<!--                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"-->
+<!--                                      name="b_00bc9177a3eeb9456b60ef950_d34a07233c" tabindex="-1" value=""></div>-->
+<!--                              <button type="submit" value="Subscribe" class="btn btn-primary btn-zoom" id="mc-embedded-subscribe">Get Started</button>-->
+<!--                              <p id="contact-form-status" class="mt-3"></p>-->
+<!--                              </form>-->
+<!--                            </div>-->
+<!--						  &lt;!&ndash;End mc_embed_signup&ndash;&gt;-->
+
+                          <form name="test-signup" method="POST"
+                                  data-netlify="true"
+                                  action="/test-signup-thanks">
+
+                            <div class="form-row">
+							  <div class="form-group col-md-10">
+					            <label class="form-check-label">Full Name</label>
+								<input class="form-control" type="text" value="" name="NAME" placeholder="Enter your name..." required>
+							  </div>
+							</div>
+
+							<div class="form-row">
+							  <div class="form-group col-md-10">
+					            <label class="form-check-label">Email</label>
+								<input class="form-control" type="email" value="" name="EMAIL" placeholder="Enter your email..." required>
+							  </div>
+							</div>
+							<div class="form-row">
+							  <div class="form-group-checkbox col-md-10">
+					            <label class="form-check-label">Terms & Conditions</label>
+								<input class="form-control" type="checkbox" value="" name="TANDC" required>
+							  </div>
+							</div>
+                              <button type="submit" value="Subscribe" class="btn btn-primary btn-zoom">Sign Up</button>
+
+                            </form>
+
+                          </div>
+                        </div>
+                        </div>
+
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+  </div>
+  {{ partial "footer-noform.html" . }}
+</body>
+
+</html>

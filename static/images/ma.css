@@ -1,0 +1,78 @@
+
+a {
+    all: unset;
+}
+
+.ma-logo {
+    margin-top: 50px;
+}
+.ma-link {
+    display: block;
+}
+
+.ma-title {
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif-bold;
+    font-size: 2.0rem;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.ma-content {
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 0.9rem;
+}
+
+.ma-card {
+    padding: 9px ;
+    padding-left: 20px;
+    border: 1px solid lightgrey;
+    /*border-top-color: blue;*/
+    border-top-width: 5px;
+    margin-bottom: 9px;
+    margin-left: 5px;
+}
+
+.ma-card-Health {
+    border-top-color: #369F78;
+}
+
+.ma-card-Wealth {
+    border-top-color: #912A8B;
+}
+
+.ma-card-Learning {
+    border-top-color: #3C9DCF;
+}
+
+.ma-card-Community {
+    border-top-color: #DD9703;
+}
+
+.ma-card p {
+    font-size:1.2rem;
+    margin: 12px ;
+}
+
+.ma-icon {
+    padding-top:7px;
+    float:left;
+    padding-bottom: 0px;
+    margin:0px;
+}
+
+.ma-name {
+    font-size:20px;
+    padding-left:40px;
+    padding-top:0px;
+    padding-bottom: 0px;
+    margin:0px;
+}
+
+.ma-paid-text {
+    font-size: 10px;
+    padding-left:5px;
+    margin:0px;
+}
+

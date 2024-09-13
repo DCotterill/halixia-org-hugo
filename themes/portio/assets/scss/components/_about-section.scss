@@ -1,0 +1,216 @@
+.about {
+  overflow: hidden;
+  &_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    &-thumb {
+      width: 45%;
+      position: relative;
+      @include desktop {
+        width: 100%;
+      }
+      .about-svg {
+        position: absolute;
+        top: -11%;
+        left: -17%;
+        z-index: -1;
+        height: 150px;
+        animation: move_top 4s infinite;
+        @include tablet {
+          top: -7%;
+          left: -16%;
+        }
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+      .about_content-thumb-image {
+        img {
+          height: 100%;
+          width: 100%;
+
+          &.about_mask_svg {
+            mask: url(../images/about/about-mask-svg.svg);
+            -webkit-mask-repeat: no-repeat;
+            -webkit-mask-size: contain;
+            -webkit-mask-position: center center;
+          }
+        }
+      }
+      .howitworks_content-thumb-image {
+        img {
+          height: 50%;
+          width: 50%;
+          }
+        }
+
+    }
+    &-inner {
+      width: 55%;
+      padding: 60px 50px;
+      background: #294FE7;
+      border-radius: 20px;
+      margin-left: -60px;
+      margin-right: 20px;
+      position: relative;
+      @include desktop {
+        padding: 25px;
+      }
+      @include desktop {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+      }
+
+      &-blob {
+        position: absolute;
+        top: -55%;
+        right: -22%;
+        z-index: -1;
+        width: 400.369px;
+        height: 362.909px;
+
+        svg {
+          width: 200%;
+        }
+
+        @include tablet {
+          display: none;
+        }
+      }
+    }
+    &-inner1 {
+      width: 45%;
+      padding: 60px 50px;
+      background: #912B88;
+      border-radius: 20px;
+      margin-left: -60px;
+      margin-right: 20px;
+      position: relative;
+      @include desktop {
+        padding: 25px;
+      }
+      @include desktop {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+      }
+      &-blob {
+        position: absolute;
+        top: -55%;
+        right: -22%;
+        z-index: -1;
+        width: 400.369px;
+        height: 362.909px;
+        svg {
+          width: 200%;
+        }
+        @include tablet {
+          display: none;
+        }
+      }
+    }
+    &-inner2 {
+      width: 45%;
+      padding: 60px 50px;
+      background: #399CCD;
+      border-radius: 20px;
+      margin-left: -30px;
+      margin-right: 120px;
+      margin-bottom: 30px;
+
+      position: relative;
+      @include desktop {
+        padding: 25px;
+      }
+      @include desktop {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+      }
+      &-blob {
+        position: absolute;
+        top: -55%;
+        right: -22%;
+        z-index: -1;
+        width: 400.369px;
+        height: 362.909px;
+        svg {
+          width: 200%;
+        }
+        @include tablet {
+          display: none;
+        }
+      }
+    }
+
+    &-inner3 {
+      width: 45%;
+      padding: 60px 50px;
+      background: #309D74;
+      border-radius: 20px;
+      margin-left: -60px;
+      margin-right: 20px;
+      position: relative;
+      @include desktop {
+        padding: 25px;
+      }
+      @include desktop {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+      }
+      &-blob {
+        position: absolute;
+        top: -55%;
+        right: -22%;
+        z-index: -1;
+        width: 400.369px;
+        height: 362.909px;
+        svg {
+          width: 200%;
+        }
+        @include tablet {
+          display: none;
+        }
+      }
+    }
+    &-inner4 {
+      width: 45%;
+      padding: 60px 50px;
+      background: #DC9802;
+      border-radius: 20px;
+      margin-left: -30px;
+      margin-right: 120px;
+      margin-bottom:30px;
+
+      position: relative;
+      @include desktop {
+        padding: 25px;
+      }
+      @include desktop {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+      }
+      &-blob {
+        position: absolute;
+        top: -55%;
+        right: -22%;
+        z-index: -1;
+        width: 400.369px;
+        height: 362.909px;
+        svg {
+          width: 200%;
+        }
+        @include tablet {
+          display: none;
+        }
+      }
+    }
+
+  }
+}

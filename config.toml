@@ -1,0 +1,69 @@
+baseURL = "https://www.halixia.com/"
+languageCode = "en-us"
+paginate = 6
+theme = "portio"
+title = "Halixia"
+
+# Main Menu
+[[menu.main]]
+name = "Home"
+url = "#home"
+weight = 1
+[[menu.main]]
+name = "How It Works"
+url = "#howitworks"
+weight = 2
+[[menu.main]]
+name = "About Us"
+url = "#about"
+weight = 3
+
+# Sitemap Menu
+[[menu.sitemap]]
+name = "The Team"
+url = "team"
+weight = 1
+[[menu.sitemap]]
+name = "Privacy Policy"
+url = "privacy"
+weight = 2
+[[menu.sitemap]]
+name = "Cookie Policy"
+url = "cookies"
+weight = 3
+
+
+[params]
+blogPageURL = "blog"
+contactLink = "#earlyaccess"
+copyright = "All rights reserved copyright © Halixia 2023"
+# footerLogo = "images/site-navigation/Logo-Icon.png"
+formspreeURL = "YOUR FORMSPREE URL"
+googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
+logo = "images/site-navigation/logo.png"
+logoSmall = "images/site-navigation/logo-small.png"
+
+[params.address]
+address = ""
+email = "research@halixia.com"
+openingHours = ""
+phone = ""
+
+[params.map]
+APIkey = "YOUR GOOGLE MAP API"
+latitude = "23.7783741"
+longitude = "90.3746808"
+pinImage = "images/pin.png"
+
+# Social icons
+[[params.social]]
+icon = "fa-linkedin-square"
+url = "https://www.linkedin.com/company/halixialtd/"
+weight = 1
+[[params.social]]
+icon = "fa-twitter-square"
+url = "https://twitter.com/HalixiaGlobal"
+weight = 2
+
+[markup.goldmark.renderer]
+  unsafe = true

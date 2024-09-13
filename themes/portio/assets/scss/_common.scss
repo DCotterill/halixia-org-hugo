@@ -1,0 +1,25 @@
+.section{
+  padding: 100px 0;
+}
+
+.unstyle-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-right: 0;
+}
+
+th, td {
+  //width:100%;
+  padding-right: 8px;
+  padding-left: 8px;
+  border-bottom: 30px;
+  border: 1px solid black;
+}
+
+table {
+  width:100%;
+  padding-bottom:100px;
+
+}
+
+
