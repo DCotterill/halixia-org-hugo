@@ -1,4 +1,4 @@
-baseURL = "https://www.halixia.com/"
+baseURL = "https://www.halixia.org/"
 languageCode = "en-us"
 paginate = 6
 theme = "portio"
